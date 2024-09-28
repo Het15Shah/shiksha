@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./About.css";
+import "../CSS/About.css";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import carouselData from "../data/carouselData.json"; // Import the JSON data directly
 

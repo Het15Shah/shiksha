@@ -11,6 +11,8 @@ import Navbar from "./components/Navbar";
 import CourseInside from "./components/CourseInside";
 import About from "./pages/About";
 import Lab from "./components/Lab";
+import Classmates from './components/Classmates';
+import Assignments from './components/Assignment';
 
 function App() {
 	const location = useLocation(); // Get the current URL path
@@ -35,6 +37,8 @@ function App() {
 					element={<Lab />}
 				/>
 				<Route path="/about-us" exact element={<About />} />
+				<Route path="/classmates" element={<Classmates />} />
+				<Route path="/assignments" element={<Assignments />} />
 			</Routes>
 		</>
 	);

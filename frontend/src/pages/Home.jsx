@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Container,
   Typography,
@@ -18,6 +19,7 @@ import { styled } from "@mui/system";
 import AssignmentIcon from "@mui/icons-material/Assignment";
 import AnnouncementIcon from "@mui/icons-material/Announcement";
 import ClassIcon from "@mui/icons-material/Class";
+import Carousel from "../components/Carousel";
 
 const StyledCard = styled(Card)(({ theme }) => ({
   height: "100%",
@@ -54,7 +56,8 @@ function Home() {
 
   return (
     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-      <Typography variant="h4" gutterBottom component="h1" sx={{ fontWeight: "bold", mb: 4 }}>
+    {/* <Carousel /> */}
+          <Typography variant="h4" gutterBottom component="h1" sx={{ fontWeight: "bold", mb: 4 }}>
         Welcome to Your Classes
       </Typography>
 
